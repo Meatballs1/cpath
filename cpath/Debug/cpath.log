@@ -1,0 +1,30 @@
+﻿Build started 18/08/2013 12:47:48.
+     1>Project "c:\Users\pentest\documents\visual studio 2010\Projects\cpath\cpath\cpath.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\cpath.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt cpath.c
+         cpath.c
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(648): warning C4133: 'function' : incompatible types - from 'char [6]' to 'LPCWSTR'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(649): warning C4133: 'function' : incompatible types - from 'char [6]' to 'LPCWSTR'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(654): warning C4047: '=' : 'PULONG' differs in levels of indirection from 'DWORD'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(670): warning C4133: 'function' : incompatible types - from 'UCHAR *' to 'LPCWSTR'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(671): warning C4047: '=' : 'PULONG' differs in levels of indirection from 'unsigned long'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(672): warning C4047: '=' : 'PVOID *' differs in levels of indirection from 'unsigned long'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(673): warning C4047: '=' : 'FARPROC' differs in levels of indirection from 'unsigned long'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(674): warning C4047: '=' : 'FARPROC' differs in levels of indirection from 'unsigned long'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(710): warning C4022: 'VirtualAlloc' : pointer mismatch for actual parameter 1
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(769): warning C4133: 'function' : incompatible types - from 'char [10]' to 'LPCWSTR'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(821): warning C4133: 'function' : incompatible types - from 'char [5]' to 'LPCWSTR'
+     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(821): warning C4133: 'function' : incompatible types - from 'char [4]' to 'LPCWSTR'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\pentest\documents\visual studio 2010\Projects\cpath\Debug\cpath.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cpath.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\pentest\documents\visual studio 2010\Projects\cpath\Debug\cpath.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\pentest\documents\visual studio 2010\Projects\cpath\Debug\cpath.lib" /MACHINE:X86 Debug\cpath.exe.embed.manifest.res
+         Debug\cpath.obj
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "c:\Users\pentest\documents\visual studio 2010\Projects\cpath\cpath\cpath.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38

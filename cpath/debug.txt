@@ -1,0 +1,17 @@
+windbg.exe -b -k com:pipe,port=\\.\pipe\com_1,resets=0
+
+.sympath SRV*c:\share\symbols*http://msdl.microsoft.com/download/symbols
+.reload 
+
+!process 0 0 cpath.exe
+
+.process /P blah (twice?)
+
+u win32k!EPATHOBJ::pprFlattenRec+1E
+
+ ba e 1 win32k!EPATHOBJ::pprFlattenRec+23 "dd poi(ebp-4) L1; gc"
+ 
+ 
+ u win32k!EPATHOBJ::bFlatten+0xf
+ ba e 1 bf87ca12 "j (eax < poi(nt!MmUserProbeAddress)) 'gc'; ''"
+
