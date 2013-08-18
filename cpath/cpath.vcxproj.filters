@@ -24,4 +24,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.txt">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

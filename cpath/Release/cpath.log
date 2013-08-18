@@ -1,6 +1,9 @@
-﻿Build started 18/08/2013 18:21:26.
-     1>Project "C:\Users\pentest\documents\visual studio 2010\Projects\cpath\cpath\cpath.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 18/08/2013 23:12:19.
+     1>Project "C:\Git\cpath\cpath\cpath.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\cpath.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'C:\USERS\PENTEST\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\CPATH\RELEASE\CPATH.PDB' is denied.
+       InitializeBuildStatus:
          Creating "Release\cpath.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt cpath.c
@@ -13,18 +16,18 @@
      1>cpath.c(171): warning C4022: 'VirtualAlloc' : pointer mismatch for actual parameter 1
      1>cpath.c(297): warning C4033: 'exploit' must return a value
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pentest\documents\visual studio 2010\Projects\cpath\Release\cpath.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\cpath.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pentest\documents\visual studio 2010\Projects\cpath\Release\cpath.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pentest\documents\visual studio 2010\Projects\cpath\Release\cpath.lib" /MACHINE:X86 Release\cpath.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Git\cpath\Release\cpath.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\cpath.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Git\cpath\Release\cpath.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Git\cpath\Release\cpath.lib" /MACHINE:X86 Release\cpath.obj
          Generating code
-     1>c:\users\pentest\documents\visual studio 2010\projects\cpath\cpath\cpath.c(306): warning C4715: 'exploit' : not all control paths return a value
+     1>c:\git\cpath\cpath\cpath.c(306): warning C4715: 'exploit' : not all control paths return a value
          Finished generating code
-         cpath.vcxproj -> C:\Users\pentest\documents\visual studio 2010\Projects\cpath\Release\cpath.exe
+         cpath.vcxproj -> C:\Git\cpath\Release\cpath.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\pentest\documents\visual studio 2010\Projects\cpath\Release\cpath.exe;#1" /manifest Release\cpath.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Git\cpath\Release\cpath.exe;#1" /manifest Release\cpath.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Release\cpath.unsuccessfulbuild".
          Touching "Release\cpath.lastbuildstate".
-     1>Done Building Project "C:\Users\pentest\documents\visual studio 2010\Projects\cpath\cpath\cpath.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Git\cpath\cpath\cpath.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.50
+Time Elapsed 00:00:00.45

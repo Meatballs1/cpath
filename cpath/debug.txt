@@ -5,13 +5,11 @@ windbg.exe -b -k com:pipe,port=\\.\pipe\com_1,resets=0
 
 !process 0 0 cpath.exe
 
-.process /P blah (twice?)
+.process /i blah
 
-u win32k!EPATHOBJ::pprFlattenRec+1E
+g
 
- ba e 1 win32k!EPATHOBJ::pprFlattenRec+23 "dd poi(ebp-4) L1; gc"
- 
- 
- u win32k!EPATHOBJ::bFlatten+0xf
- ba e 1 bf87ca12 "j (eax < poi(nt!MmUserProbeAddress)) 'gc'; ''"
+bp GDI32!FlattenPath
+
+ba e 1 bf87ca12 "j (eax < poi(nt!MmUserProbeAddress)) 'gc'; ''"
 

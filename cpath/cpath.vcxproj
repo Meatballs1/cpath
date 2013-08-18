@@ -80,6 +80,9 @@
   <ItemGroup>
     <ClInclude Include="ComplexPath.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
